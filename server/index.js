@@ -36,7 +36,24 @@ mercadopago.configure({
     access_token: "TEST-695027965126634-121802-510b23c7e4759300bfa01dc4bd7d8e09-309278269"
 })
 
-
+// let preference = {
+//     items: [
+//       {
+//         title: 'Mi producto',
+//         unit_price: 100,
+//         quantity: 1,
+//       }
+//     ],
+//     purpose: 'wallet_purchase'
+//   };
+  
+//   mercadopago.preferences.create(preference)
+//   .then(function(response){
+//     global.id = response.body.id;
+//   }).catch(function(error){
+//     console.log(error);
+//   });
+  
 // 3. RUTEO
 
 // A. GUITARRAS
